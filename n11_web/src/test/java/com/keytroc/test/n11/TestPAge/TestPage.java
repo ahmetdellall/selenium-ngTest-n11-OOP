@@ -30,7 +30,7 @@ public class TestPage {
 		LoginPageExt sample = PageFactory.initElements(driver, LoginPageExt.class);
 		try {
 
-			sample.formFillUp("cedellalahmet@gmail.com", "WLeynm7M");
+			sample.formFillUp("*******", "********");
 			Assert.assertTrue(sample.getEmail().isEnabled(), "email girişi gerçekleşmedi..");
 			Assert.assertTrue(sample.getPassWord().isEnabled(), "şifre girişi gerçekleşmedi..");
 			System.out.println("Üye girişi gercekleştirildi..");
